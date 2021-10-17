@@ -1,0 +1,18 @@
+/* ./resources/css/app.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .error{
+        color: #f25a4f;
+    }
+    
+    .alert-success{
+        background-color: #32fa67;
+        text-align: center;
+        padding: 2px;
+        border-radius: 5px;
+        margin-bottom: 5px;
+    }
+  }
